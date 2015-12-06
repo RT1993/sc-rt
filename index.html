@@ -1,0 +1,165 @@
+<!doctype html>
+<html>
+<head>
+  <title>SuzanneCollins</title>
+  <link rel="stylesheet" type="text/css" href="styles/style.css">
+  <script type="text/javascript" src="js/sKroll.min.js"></script>
+</head>
+
+<body>
+   <div class="body">
+    <div class="background">
+     <div class="container">
+     
+      <div class="body-content">
+        <h1>SUZANNE COLLINS</h1>
+        <h2><img id="path" src="image/path1.png">television script writer/novelist<img src="image/path2.png">
+        </h2>
+        <p>
+	  	    Welcome!
+           <br>
+            Hi! Thanks for visiting my website.
+           <br>
+            This website include all my works.
+           <br>
+            You may want to click around and find out
+            a little more about my books.
+        </p>
+        </div>
+      </div>  
+    <div class="container, explore">
+        <a class="main-button" href="#header">EXPLORE</a>
+    </div>
+
+
+    </div>  
+   </div>
+
+
+   <div id="header" class="header">
+   	<div class="container">
+      
+      <div  class="nav flex space-between">
+        <a href="author.html"><img src="image/author.png"><br>AUTHOR</a>
+        <a href="library.html"><img src="image/library.png"><br>LIBRARY</a>
+         <div id="sc" class="sc";>
+          <a href="index.html"><font size="5" color="3a3a3c">SUZANNE COLLINS</font></a>
+         </div>
+        <a href="community.html"><img src="image/community.png"><br>COMMUNITY</a>
+        <a href="connect.html"><img src="image/connect.png"><br>CONNECT</a>
+      </div>
+    </div>
+  </div>
+
+  <div class="body">
+     <div class="bg2">
+      <a class="SecBtn" href="author.html">MEET SUZANNE COLLINS</a>
+     </div>
+  </div>
+
+
+  <div class="body">
+    <div class="container publications group">
+      <div class="book">
+         <h4><img id="path" src="image/path3.png">PUBLICATIONS<img id="path" src="image/path4.png"></h4>
+      </div>
+      <div class="row">
+         <figure><img src="image/book1.jpg"></figure>
+         <a class="overlay" href="library_1.html"><span>EXPLORE</span></a>
+      </div>
+      <div class="row">
+         <figure><img src="image/book2.jpg"></figure>
+         <a class="overlay" href="library_1.html"><span>EXPLORE</span></a>
+      </div>
+      <div class="row">
+         <figure><img src="image/book3.jpg"></figure>
+         <a class="overlay" href="library_1.html"><span>EXPLORE</span></a>
+      </div>
+       <div class="row">
+         <figure><img src="image/book4.jpg"></figure>
+         <a class="overlay" href="library_1.html"><span>EXPLORE</span></a>
+      </div>
+       <div class="row">
+         <figure><img src="image/book5.jpg"></figure>
+         <a class="overlay" href="library_1.html"><span>EXPLORE</span></a>
+      </div>
+       <div class="row">
+         <figure><img src="image/book6.jpg"></figure>
+         <a class="overlay" href="library_1.html"><span>EXPLORE</span></a>
+      </div>
+    </div>  
+
+  </div>
+  <div class="wrapper">
+         <a class="Btn" href="library.html">SEE ALL PUBLICATIONS</a>
+  </div>
+
+  <div class="body">
+   <div class="footer">
+    <div class="container">
+
+      <div class="icon">
+        <img src="image/icon-Btm.png"></img>
+      </div>
+
+      <div class="connect">
+        <a>CONNECT US</a>
+        <div class="email">
+          <form class="inputForm" name='sendMsg' onsubmit="return validateForm()" method="post">
+             <div>
+                <label for="Your email"></label>
+                <input type="text" id="inputYouremail"/>
+             </div>
+          </form>
+          <a class="send" href="#">Send</a>
+        </div>
+      </div>
+
+      <div class="quicklinks">
+         <a>QUICK LINKS</a>
+        <div class="link"> 
+          <a class="link" href="#">Amzon</a>
+          <a class="link" href="#">Listening Library</a>
+          <a class="link" href="#">Indie Bound</a>
+          <a class="link" href="#">Penguin Group</a>
+          <a class="link" href="#">NPR</a>
+        </div>
+      </div>
+      
+
+      <div class="sharethewebsite">
+         <a>SHARE THE WEBSITE</a>
+        <div class="sociallinks"> 
+         <a class="sociallinks" href="#"><img src="image/facebook.png"></a>
+         <a class="sociallinks" href="#"><img src="image/twitter.png"></a>
+         <a class="sociallinks" href="#"><img src="image/tumblr.png"></a>
+         <a class="sociallinks" href="#"><img src="image/ins.png"></a>
+         <a class="sociallinks" href="#"><img src="image/pin.png"></a>
+        </div>
+      </div>
+
+     </div>
+    </div>
+
+
+    </div>
+
+  </div>
+
+  <script>
+  var header = document.getElementById('header');
+  var threshold = header.offsetTop;
+  document.onscroll = function(){
+    if (document.body.scrollTop > threshold){
+      header.classList.add('fixed-top');
+    }else{
+      header.classList.remove('fixed-top');
+    }
+  }
+  </script>
+	
+
+  
+
+</body>
+</html>
