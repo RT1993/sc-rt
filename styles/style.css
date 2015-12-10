@@ -136,6 +136,7 @@ body{
   font-size: 12px;
   letter-spacing: 1.2px;
   padding: 30px;
+  transition: .3s ease-in-out;
 }
 
 .nav a:hover {
@@ -548,21 +549,28 @@ a.sociallinks:hover{
   background-color:#fff;
   box-shadow:2px 2px 3px rgba(0,0,0,0.3);
  }
+
+ .flex{
+  display: block;
+ }
  .nav{
-  display:block;
+  display:none;
   float:right;
   margin-top:10px;
-    position:relative;
-    background-color:#fff;
-    margin-right:-30px;
-    width:118%;
-    opacity:1;
-    z-index:100;
+  position:relative;
+  background-color:#fff;
+  margin-right:-30px;
+  width:118%;
+  height:100%;
+  opacity:1;
+  z-index:100;
+  box-shadow:2px 2px 3px rgba(0,0,0,0.3);
  }
 
  .nav.shown{
   opacity:1;
   z-index:100;
+  display: block;
  }
  .nav a {
   float:none;
