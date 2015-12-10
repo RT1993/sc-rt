@@ -50,6 +50,9 @@ body{
   font-size: 18px;
 
 }
+.menu-icon{
+  display:none;
+}
 
 .nav a{
   text-decoration: none;
@@ -61,6 +64,7 @@ body{
   font-size: 12px;
   letter-spacing: 1.2px;
   padding: 30px;
+  transition: .3s ease-in-out;
 }
 
 .nav a:hover {
@@ -184,29 +188,6 @@ body{
 
 /*=========== biography--1 ===============*/
 
-/*.body {
-  background-color: #ffffff;
-  transition: background-color 0.2s ease-in-out;
-  height:200px;
-}*/
-
-.modal2{
-  opacity: 0;
-  visibility: hidden;
-  background-color: #000;
-  height: 612px;
-  width:100%;
-  transition: bottom 0.3s ease-in-out;
-/*    visibility 0.3s ease-in-out,
-    bottom 0.3s ease-in-out,
-    height 0.3s ease-in-out,
-    width 0.3s ease-in-out;*/
- /* margin: 50px auto;*/
-  margin-top:-2400px;
-  position: absolute;
-  bottom: -300px;
-  box-shadow:-10px -5px 8px rgba(0,0,0,0.2);
-}
 
 
 
@@ -225,7 +206,7 @@ body{
   margin-top:-2400px;
   position: absolute;
   bottom: -300px;
-  box-shadow:-10px -5px 8px rgba(0,0,0,0.2);
+  box-shadow:-10px -15px 8px rgba(0,0,0,0.2);
 }
 
 .shown {
@@ -270,6 +251,7 @@ body{
   font-size: 14px;
   line-height: 21px;
   letter-spacing:0px;
+  color:#3a3a3c;
 }
 
 
@@ -284,7 +266,7 @@ div.scroll{
 .footer{
   /*position:fixed;*/
   text-align: center;
-  height:409px;
+  height:438px;
   margin-top: 0px;
   background-color:#4bbe9e;
 }
@@ -300,12 +282,14 @@ div.scroll{
   font-weight:600;
   letter-spacing: 1px;
 }
-
+.inputForm{
+  margin-left: 254px;
+}
 .inputForm{
   float: left;
   margin-top: 15px;
-  margin-left:210px;
-  width: 20%;
+  /*margin-left:213px;*/
+  width: 25%;
   
 }
 
@@ -325,7 +309,7 @@ div.scroll{
   background-color: #707070;  
   padding:9px 60px;
   margin-top:14.5px;
-  margin-left:-80px;
+  margin-left:-100px;
   
 }
 
@@ -503,6 +487,9 @@ a.overlay span:hover{
   opacity: 1;
   margin-top: 0; /* for the animation */
 }
+
+
+
 
 /*=============================community=========================*/
 
@@ -945,3 +932,505 @@ a.readmore3{
   margin-top: 30px;
   background-color:#4bbe9e;
 }
+
+/*===library-buy the book===*/
+
+.buy h1{
+  margin-top: 200px;
+  font-size:18px;
+  color:#3a3a3c;
+  letter-spacing: 2px;
+}
+.amazon{
+  margin-top:20px;
+}
+.amazon a{
+  padding-right: 20px;
+}
+
+.amazon a:hover img{
+  position:relative;
+  bottom:5px;
+}
+
+
+
+
+/*Tablet*/
+
+@media (max-width:770px){
+
+  .container{
+    width:700px;
+  }
+/*==================author===================*/
+  #sc{
+  margin-top:0px;
+ }
+
+  .abouttheauthor{
+  width:46%;
+ }
+  .abouttheauthor h1{
+   padding-top: 80px;
+   padding-left: 29px;
+   padding-right: 20px;
+   font-size: 20px;
+ }
+  .biography a{
+  margin-left: 54px;
+ }
+
+  .inherownwords{
+  width:46%;
+ }
+
+  .inherownwords h1{
+    padding-right: 16px; 
+    padding-left: 34px;
+    font-size: 20px;
+ }
+  .interview a{
+    margin-left: -124px;
+ }
+  .bioinfoleft{
+  margin-left: 109px;
+ }
+ 
+
+div.scroll{
+   height: 350px;
+}
+.bioinforight{
+    margin-top: 22px;
+    margin-right: 114px;
+}
+
+
+.inputForm{
+  margin-left: 94px;
+}
+
+.send{
+  margin-left: 20px
+}
+
+.link{
+  padding: 15px 15px;
+}
+
+/*==================library===================*/
+
+.books{
+    height: 100%;
+    width: 100%;
+}
+
+.row{
+  width: 53%;
+  float: none;
+}
+.overlay{
+    left: 13%;
+    right: 20.5%;
+}
+
+/*==================library-1===================*/
+
+.bookinfo h1{
+    font-size: 16px;
+}
+.bookinfo p{
+    padding-left: 17px;
+}
+p{
+   padding-right: 22px;
+}
+.readmore a{
+    margin-left: 47px;
+}
+a.readmore1{
+    margin-top: 60px;
+}
+a.readmore2{
+    margin-top: 18px;
+}
+a.readmore3{
+    margin-top: 0px;
+}
+
+/*==================community===================*/
+.shareTitle h1{
+    margin-left: 120px
+}
+.formdetail{
+    margin-left: -16px;
+    width: 736px;
+}
+.firstname h1{
+     margin-left: 49px;
+}
+.firstname1 input{
+    width: 231px;
+}
+
+.emailaddress1 input{
+  width: 731px;
+}
+.emailaddress h1{
+  margin-left: 284px;
+}
+
+.choosebook1 input{
+   width: 731px;
+}
+.choosebook h1{
+   margin-left: 284px;
+}
+.share input{
+    width:731px;
+}
+.share h1{
+    margin-left: 264px;
+}
+
+.submit{
+    margin-left: 272px;
+}
+
+/*==================community===================*/
+.socialmedias{
+    margin-left: 33px;
+}
+
+.tweetcontact{
+    width: 100%;
+}
+.tweetform{
+    width: 358px;
+}
+.t1 h3{
+    font-size: 23px;
+}
+.t2 h3{
+    margin-top: 17px;
+}
+.text{
+    font-size: 18px;
+    margin-top: 10px;
+}
+.tweet1{
+    width: 385px;
+}
+.follow1{
+    margin-right: 23px;
+    width: 106px;
+    margin-top: -22px;
+}
+.tweetimg img{
+  width:100%;
+}
+.contactinfo{
+    margin-right: -93px;
+    margin-top:-464px;
+    font-size: 23px;
+}
+.contactinfo p{
+   padding-right: 49px;
+   margin-top: 38px;
+}
+.contactinfo h1{
+   padding-right: 26px;
+}
+
+}
+
+/*===MOBOILE===*/
+@media (max-width:400px){
+ .container{
+  width:90%;
+ }
+ .header{
+  max-height:60px;
+  background-color:#fff;
+ }
+  .menu-icon{
+  display:block;
+  float:right;
+  font-size:36px;
+  color:#2FCA9F;
+  position:relative;
+  top:3px;
+  cursor:pointer;
+ }
+
+ .nav{
+  display:block;
+  float:right;
+  margin-top:10px;
+  position:relative;
+  background-color:#fff;
+  margin-right:-30px;
+  width:118%;
+  opacity:1;
+  z-index:100;
+   box-shadow:2px 2px 3px rgba(0,0,0,0.3);
+ }
+
+.nav a.shown{
+  opacity:1;
+  z-index:100;
+ }
+
+ .nav a {
+  float:none;
+  border-bottom:1px solid #C5C2C2;
+  margin:0;
+  padding:10px;
+  transition: .3s ease-in-out;
+ }
+
+
+ /*===========author=============*/
+ .bg2 img{
+     margin-top: 61px;
+ }
+
+ .info{
+   height: 540px;
+   margin-top: -13px;
+ }
+ .flex {
+    display: block;
+ }
+ .abouttheauthor{
+    width: 95%;
+ }
+ .abouttheauthor{
+    margin: 10px 8px;
+ }
+ .abouttheauthor h1 {
+    margin-top: -51px;
+    padding-top: 106px;
+    padding-bottom: 102px;
+    padding-left: 58px;
+    padding-right: 12px;
+    font-size: 18px;
+}
+
+.biography {
+    margin-top: -36px;
+    padding-bottom: 71px;
+}
+
+.biography a{
+    margin-left: 70px;
+}
+.inherownwords {
+    width: 95%;
+}
+.inherownwords{
+   margin: 10px 8px;
+}
+ .inherownwords h1 {
+    margin-top: -51px;
+    padding-top: 106px;
+    padding-bottom: 102px;
+    padding-left: 58px;
+    padding-right: 12px;
+    font-size: 18px;
+
+}
+.interview{
+    margin-top: -52px;
+    margin-left: 190px;
+    padding-bottom: 70px;
+}
+.footer{
+  height:100%;
+}
+
+.inputForm{
+    margin-left: -6px;
+}
+.inputForm input, textarea{
+    width: 368px;
+}
+.send{
+    margin-left: -119px;
+    margin-top: 68.5px;
+}
+.quicklinks{
+    padding-top: 122px;
+}
+.link{
+    padding: 0px 3px;
+    line-height: 45px;
+}
+.bioinfoleft{
+    margin-left: 30px;
+}
+div.scroll{
+  width: 345px;
+}
+.bioinforight{
+  margin-right: 26px;
+}
+/*=========Library===========*/
+.library-bg img{
+  margin-top:61px;
+}
+.book img{
+  width:20%;
+}
+.row{
+    padding-right: 165px;
+}
+.overlay{
+    left: 13%;
+    right: 14.5%;
+}
+
+.footer-com{
+  height:100%;
+}
+/*=========Library-1===========*/
+.aboutthebook{
+  width:93%;
+}
+.readmore a{
+   margin-left: 49px;
+   padding: 15px 56px;
+   font-size: 23px;
+}
+.awards{
+   width: 93%;
+}
+.reviews{
+  width: 93%;
+}
+.footer-lib{
+  height:100%;
+}
+/*=========community===========*/
+.bg3 img{
+    margin-top: 61px;
+}
+.shareTitle h1{
+  margin-left: 18px;
+  margin-top: 19px;
+  font-size: 19px;
+  height: 50px;
+  width: 323px;
+  padding: 24px 1px 0px 0px;
+}
+.formdetail{
+  width: 384px;
+}
+.firstname1 input{
+    width: 220px;
+    margin-left: -138px;
+    height: 47px;
+}
+.age{
+  margin-top:-53px;
+  margin-left:244px;
+}
+.age1 input{
+  height: 47px;
+  width:132px;
+}
+.age h1{
+  margin-left: 35px;
+}
+.selectcountry1 input{
+    width: 367px;
+    height: 47px;
+    margin-top: 22px;
+    margin-left: 8px;
+}
+.selectcountry h1{
+    margin-left: 97px;
+    margin-top: 7px;
+}
+.form2{
+    margin-top: 22px;
+    margin-left: 8px;
+}
+.form3{
+    margin-top: 97px;
+    margin-left: 8px;
+}
+.form4{
+    margin-top: 172px;
+    margin-left: 8px;
+}
+.emailaddress1 input{
+    height: 47px;
+    width: 366px;
+}
+.emailaddress h1{
+   margin-left: 95px;
+}
+.choosebook1 input{
+    height: 47px;
+    width: 366px;  
+}
+.choosebook h1{
+      margin-left: 92px;
+}
+.share input{
+    height: 47px;
+    width: 366px; 
+}
+.share h1{
+    margin-left: 78px;
+}
+.submit{
+   margin-top: 271px;
+   margin-left: 91px;
+}
+/*=========connect===========*/
+.bg4 img{
+    margin-top: 61px;
+}
+.socialmedias{
+    margin-top: 14px;
+    margin-left: -7px;
+    height: 69px;
+    width: 289px;
+    padding-top: 13px;
+}
+.socialmedias a img{
+    padding: 11px;
+}
+
+.t{
+    width: 338px;
+    height: 58px;
+}
+.t2 h3{
+    margin-top: 27px;
+    font-size: 19px;
+    width: 235px;
+}
+.tweetform{
+    width: 332px;
+}
+.tweet1{
+  width: 360px;
+}
+.contactinfo{
+    margin-right: -19px;
+    margin-top: 17px;
+    width: 100%;
+}
+.footer-connect{
+    margin-top: 276px;
+    height:100%;
+}
+
+}
+
+ 
+

@@ -3,7 +3,7 @@
 <head>
   <title>SuzanneCollins</title>
   <link rel="stylesheet" type="text/css" href="styles/style.css">
-  <script type="text/javascript" src="js/sKroll.min.js"></script>
+  <script type="text/javascript" src="script.js"></script>
 </head>
 
 <body>
@@ -23,7 +23,9 @@
             This website include all my works.
            <br>
             You may want to click around and find out
-            a little more about my books.
+            <br>
+            a little more about
+            my books.
         </p>
         </div>
       </div>  
@@ -38,8 +40,10 @@
 
    <div id="header" class="header">
    	<div class="container">
+      <span id="navIcon" class="menu-icon">&#9776;</span>
       
-      <div  class="nav flex space-between">
+      <div id="menu" class="nav flex space-between">
+
         <a href="author.html"><img src="image/author.png"><br>AUTHOR</a>
         <a href="library.html"><img src="image/library.png"><br>LIBRARY</a>
          <div id="sc" class="sc";>
@@ -47,13 +51,16 @@
          </div>
         <a href="community.html"><img src="image/community.png"><br>COMMUNITY</a>
         <a href="connect.html"><img src="image/connect.png"><br>CONNECT</a>
+      
       </div>
     </div>
   </div>
 
   <div class="body">
      <div class="bg2">
-      <a class="SecBtn" href="author.html">MEET SUZANNE COLLINS</a>
+       <div class="bg2Btn">
+         <a class="SecBtn" href="author.html">MEET SUZANNE COLLINS</a>
+       </div>
      </div>
   </div>
 
@@ -156,6 +163,8 @@
       header.classList.remove('fixed-top');
     }
   }
+
+
   </script>
 	
 
